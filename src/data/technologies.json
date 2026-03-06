@@ -1,0 +1,11 @@
+[{"name": "React", "icon": "", "experience": "tag"},
+    {"name": "CSS", "icon": "", "experience": "tag"},
+    {"name": "Javascript", "icon": "", "experience": "tag"},
+    {"name": "HTML", "icon": "", "experience": "tag"},
+    {"name": "Java", "icon": "", "experience": "tag"},
+    {"name": "Spring Boot", "icon": "", "experience": "tag"},
+    {"name": "Docker", "icon": "","experience": "tag"},
+    {"name": "Next.js", "icon": "", "experience": "tag"},
+       {"name": "Python", "icon": "", "experience": "tag"}
+
+]

@@ -139,7 +139,7 @@ label {
 }
 
 .nav {
-    width: calc(100% - 10rem);
+    width: calc(100vw - 15rem);
     height: 3rem;
     padding: 1rem; 
     display: flex;
