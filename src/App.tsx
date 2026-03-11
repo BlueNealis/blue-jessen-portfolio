@@ -1,4 +1,6 @@
 import './App.css'
+import technologies from './data/technologies';
+import TechnologyBox from './components/TechnologyBox';
 
 function App() {
 
@@ -41,7 +43,7 @@ function App() {
         <div className="info-section" id="technologies">
             <h2 className="section-header">Technologies</h2>
             <div className="technologies-container" id="technologies-container">
-                
+
             </div>
             </div>
             <a className="back-to-top-anchor" href="#top">Back To Top</a>

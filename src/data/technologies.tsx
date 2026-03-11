@@ -1,4 +1,4 @@
-[{"name": "React", "icon": "", "experience": ["GSA-bah"]},
+const technologies = [{"name": "React", "icon": "", "experience": ["GSA-bah"]},
 {"name": "Vue", "icon": "", "experience": ["tag"]},
 {"name": "Next.js", "icon": "", "experience": ["tag"]},
 {"name": "CSS", "icon": "", "experience": ["tag"]},
@@ -6,5 +6,6 @@
 {"name": "JavaScript", "icon": "", "experience": ["tag"]},
 {"name": "HTML", "icon": "", "experience": ["tag"]},
 {"name": "Python", "icon": "", "experience": ["tag"]}
+];
 
-]
+export default technologies;
