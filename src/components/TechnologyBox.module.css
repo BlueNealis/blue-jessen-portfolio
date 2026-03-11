@@ -1,4 +1,4 @@
-.technology-box {
+.technologyBox {
     width: 200px;
     height: 50px;
     border-radius: 5px;
@@ -6,14 +6,14 @@
     background: white;
     color: var(--darkBlue);
     box-shadow: 2px 3px rgb(58, 78, 130);
+}
 
-    .technology-header {
-        display: flex;
-    }
+.technologyHeader {
+    display: flex; 
 }
 
 
-.technology-box:hover {
+.technologyBox:hover {
     cursor: pointer;
     border-color: rgb(29, 12, 83);
     transition-property: all .5s;
