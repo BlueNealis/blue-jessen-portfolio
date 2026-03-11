@@ -43,7 +43,15 @@ function App() {
         <div className="info-section" id="technologies">
             <h2 className="section-header">Technologies</h2>
             <div className="technologies-container" id="technologies-container">
-
+               { technologies.map((technology) => {
+                    return (
+                        <TechnologyBox 
+                            name={technology.name} 
+                            icon={technology.icon} 
+                            experience={technology.experience} 
+                            />
+                    )
+                })}
             </div>
             </div>
             <a className="back-to-top-anchor" href="#top">Back To Top</a>
