@@ -1,0 +1,21 @@
+.technology-box {
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid var(--blue);
+    background: white;
+    color: var(--darkBlue);
+    box-shadow: 2px 3px rgb(58, 78, 130);
+
+    .technology-header {
+        display: flex;
+    }
+}
+
+
+.technology-box:hover {
+    cursor: pointer;
+    border-color: rgb(29, 12, 83);
+    transition-property: all .5s;
+    box-shadow:inset 0px 0px 0px 5px rgb(29, 12, 83);
+}

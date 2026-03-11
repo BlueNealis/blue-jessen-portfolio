@@ -7,10 +7,13 @@ icon: string,
 const TechnologyBox = ({name, experience, icon}: technologyProps) => {
     return(
         <div className="technology-box">
-            <img src={icon} alt={name}/>
-            <h3>
-                {name}
-            </h3>
+            <div className="technology-header"> 
+                <img src={icon} alt={name}/>
+                <h3>
+                    {name}
+                </h3>
+            </div>
+           
             { experience.map(() => {
                 return(
                     <div>
