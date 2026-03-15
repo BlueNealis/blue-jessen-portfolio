@@ -15,7 +15,7 @@ function App() {
         </div>
         <div className="intro-section">
             <div className="name-container">
-                <img src="" width="130px" alt="Circle placeholder"/>
+                <img src="/" width="130px" alt="Circle placeholder"/>
                 <h1 className="body-medium">Hello I'm, Blue Jessen <br></br> A Full Stack Developer</h1>
             </div>
         </div>
@@ -28,10 +28,10 @@ function App() {
                         about Stanford courses that he took that were free online.  I started my course ordering
                         a little cartoon robot around a room in order to understand how a computer 
                         processes instructions.</p>
-                        <img src="" alt="robot"/>
+                        <img src="/" alt="robot"/>
                 </div>
                 <div className="image-row">
-                    <img src="" alt="robot"/>
+                    <img src="/" alt="robot"/>
                     <p>Since then I’ve studied recursion, conquering hanoi, 
                         worked through a 7 month bootcamp defeating javascript sphynx’s, 
                         and successfully worked on four projects at my current company 
@@ -46,6 +46,7 @@ function App() {
                { technologies.map((technology) => {
                     return (
                         <TechnologyBox 
+                            key={technology.name}
                             name={technology.name} 
                             icon={technology.icon} 
                             experience={technology.experience} 

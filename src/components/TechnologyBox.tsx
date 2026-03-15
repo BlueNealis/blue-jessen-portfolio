@@ -14,13 +14,15 @@ const TechnologyBox = ({name, experience, icon}: technologyProps) => {
                     {name}
                 </h3>
             </div>
+            <div className={styles.experienceContainer}>
             { experience.map((item) => {
                 return(
-                        <a key={item.tag} href={`#${item.tag}`}>{item.desc}</a>
+                        <a className={styles.technologyExperience} key={item.tag} href={`#${item.tag}`}>{item.desc}</a>
                     )
                 }
             )
         }
+            </div>
         </div>
     )
 }
