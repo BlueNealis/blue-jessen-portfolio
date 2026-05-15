@@ -55,13 +55,41 @@ body {
     flex-direction: column;
     align-items: center;
 }
+@media (min-width: 1280px) {
 
-p {
-    font-size: 32px;
+.info-section {
+    color:var(--darkBlue);
+    width: 1140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.image-row > p {
+    width: 550px;
+}
+
+.nav {
+    width: calc(100vw - 15rem);
+    height: 3rem;
+    padding: 1rem; 
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    background: linear-gradient(white, rgb(0,0,0,0));
+}
+
+}
+
+/* p {
+    font-size: 18px;
 }
 
 .body-medium {
-    font-size: 32px; 
+    font-size: 18px; 
     font-weight: 300;
 }
 
@@ -111,23 +139,13 @@ label {
     line-height: 3rem;
 }
 
-.info-section {
-    color:var(--darkBlue);
-    width: 1140px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .image-row {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     width: 100%
 }
-.image-row > p {
-    width: 550px;
-}
+
 
 .image-row:first-child {
     margin-right: 2.5rem;
@@ -136,16 +154,6 @@ label {
 .section-header {
     font-size: 48px; 
     font-weight: 300;
-}
-
-.nav {
-    width: calc(100vw - 15rem);
-    height: 3rem;
-    padding: 1rem; 
-    display: flex;
-    justify-content: flex-end;
-    position: fixed;
-    background: linear-gradient(white, rgb(0,0,0,0));
 }
 
 .name-container {
@@ -214,7 +222,7 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
