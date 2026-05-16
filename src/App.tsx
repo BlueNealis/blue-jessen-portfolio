@@ -16,7 +16,7 @@ function App() {
         <div className="intro-section">
             <div className="name-container">
                 <img src="/" width="130px" alt="Circle placeholder"/>
-                <h1 className="body-medium">Hello I'm, Blue Jessen <br></br> A Full Stack Developer</h1>
+                <h1>Hello I'm, Blue Jessen A Full Stack Developer</h1>
             </div>
         </div>
         <div className="info-section" id="about">
@@ -24,11 +24,11 @@ function App() {
             <p className="margin-bottom-3">I’m a <b>developer</b>, <b>illustrator</b> who has lived all around the United States
                 I’ve been programming since 2021 and working professionally since 2023.</p>
                 <div className="image-row">
+                    <img src="/" alt="robot"/>
                     <p>In the beginning of 2021 I tried coding at the request of my brother-in-law. He told me
                         about Stanford courses that he took that were free online.  I started my course ordering
                         a little cartoon robot around a room in order to understand how a computer 
                         processes instructions.</p>
-                        <img src="/" alt="robot"/>
                 </div>
                 <div className="image-row">
                     <img src="/" alt="robot"/>
