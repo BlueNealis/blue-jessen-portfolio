@@ -63,17 +63,23 @@ function App() {
                 <p>Booz Allen Hamilton</p>
                 <div>
                     <h4>Marketing Portal Frontend Lead</h4>
-                    <p>description of role on project</p>
+                    <p>As the Frontend Lead I leveraged a small teams skills, and the existing 
+                        material in the repository to stand up a marketing site, while also 
+                        contributing to the interative gui, and backend of client spending 
+                        insight dashboard.</p>
                     <ul>
-                        <li>accomplishment</li>
-                        <li>accomplishment</li>
-                        <li>accomplishment</li>
+                        <li>Create stylistically, and functionally flexible components to be used across site, keeping the scalablity in mind.</li>
+                        <li>Lead efforts to collect marketing information across team of 25 people for 30 products/technology pages.</li>
+                        <li></li>
                         <li>accomplishment</li>
                     </ul>
                 </div>
                 <div>
                     <h4>GSA Cloud Communications</h4>
-                    <p>description of role on project</p>
+                    <p>As the only developer on my small team, I worked to bring modern coding practices to a more simple codebase. I communicate
+                        with clients to keep modernization efforts up-to-date, and regularly prune the sites content.  With a smal team I have to wear
+                        many hats and often find myself a pseudo-scrummaster, and main point-of-contact for the website. 
+                    </p>
                     <ul>
                         <li>accomplishment</li>
                         <li>accomplishment</li>
