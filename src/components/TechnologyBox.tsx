@@ -9,7 +9,7 @@ const TechnologyBox = ({name, experience, icon}: technologyProps) => {
     return(
         <div className={styles.technologyBox}>
             <div className={styles.technologyHeader}> 
-                <img width="50" height="50" src={icon} alt={name}/>
+                <img width="25" height="25" src={icon} alt={name}/>
                 <h3>
                     {name}
                 </h3>
