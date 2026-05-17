@@ -9,17 +9,17 @@ const NavBar = () => {
     }
 
     return(
-        <div className={styles.nav_container}>
+        <div>
             <button className={`${styles.burger} ${styles.toggle_btn}`} >
                 <img src='src/assets/burger.svg' height='25' width='25' />
                 Menu
             </button>
-            <ul className="nav" id="top">
-                <button><a href="#about">About</a></button>
-                <button><a href="#experience">Experience</a></button> 
-                <button><a href="#technologies">Technologies</a></button>
-                <button><a href="#education">Education</a></button>
-                <button><a href="#education">Resume</a></button>
+            <ul className={`nav ${styles.nav_container}`} id="top" >
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li> 
+                <li><a href="#technologies">Technologies</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#education">Resume</a></li>
             </ul>
         </div>
     )

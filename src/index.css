@@ -32,21 +32,6 @@ a {
     color:var(--darkBlue);
 }
 
-button {
-    background-color: var(--blue);
-    color:var(--darkBlue);
-    padding: .5rem;
-    border-radius: 3px; 
-    border: none; 
-    margin: .45rem;
-}
-
-button:hover {
-    background-color: var(--orangeLight);
-    cursor: pointer;
-    transition: background-color ease-in-out .20s;
-}
-
 body {
     margin: 0;
     background: linear-gradient(white, #e2efff);
