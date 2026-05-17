@@ -82,6 +82,7 @@ h2, h3, h4{
     place-items: center;
     grid-gap: 1.5rem;
 }
+
 @media (min-width: 1280px) {
 
 .info-section {

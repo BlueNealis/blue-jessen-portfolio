@@ -6,6 +6,7 @@ function App() {
 
   return (
   <>
+        <NavBar/>
         <div className="intro-section">
             <div className="name-container">
                 <img src="/" width="130px" alt="Circle placeholder"/>
