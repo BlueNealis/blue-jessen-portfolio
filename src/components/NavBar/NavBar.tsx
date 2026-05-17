@@ -10,10 +10,10 @@ const NavBar = () => {
 
     return(
         <div className={styles.nav_container}>
-            <div className={styles.burger} >
+            <button className={`${styles.burger} ${styles.toggle_btn}`} >
                 <img src='src/assets/burger.svg' height='25' width='25' />
-                <p>Menu</p>
-            </div>
+                Menu
+            </button>
             <ul className="nav" id="top">
                 <button><a href="#about">About</a></button>
                 <button><a href="#experience">Experience</a></button> 
