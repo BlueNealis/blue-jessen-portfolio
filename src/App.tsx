@@ -1,18 +1,11 @@
 import './App.css'
 import technologies from './data/technologies';
 import TechnologyBox from './components/TechnologyBox';
-
+import NavBar from './components/NavBar/NavBar';
 function App() {
 
   return (
   <>
-       <div className="nav" id="top">
-            <button><a href="#about">About</a></button>
-            <button><a href="#experience">Experience</a></button> 
-            <button><a href="#technologies">Technologies</a></button>
-            <button><a href="#education">Education</a></button>
-            <button><a href="#education">Resume</a></button>
-        </div>
         <div className="intro-section">
             <div className="name-container">
                 <img src="/" width="130px" alt="Circle placeholder"/>
