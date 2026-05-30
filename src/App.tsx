@@ -57,28 +57,24 @@ function App() {
                 <p>Booz Allen Hamilton</p>
                 <div>
                     <h4>Marketing Portal Frontend Lead</h4>
-                    <p>As the Frontend Lead I leveraged a small teams skills, and the existing 
-                        material in the repository to stand up a marketing site, while also 
-                        contributing to the interative gui, and backend of client spending 
-                        insight dashboard.</p>
+                    <p>Architected and built a government portal application using Next.js, React, TypeScript, and USWDS components. Led a small team by conducting code reviews and integrating frontend contributions from two developers, ensuring quality and consistency across the codebase. Partnered directly with clients to refine functionality and design direction while delivering MVP within tight deadlines.</p>
                     <ul>
-                        <li>Create stylistically, and functionally flexible components to be used across site, keeping the scalablity in mind.</li>
-                        <li>Lead efforts to collect marketing information across team of 25 people for 30 products/technology pages.</li>
-                        <li></li>
-                        <li>accomplishment</li>
+                        <li>Built responsive admin dashboard with sortable tables, pagination, and real-time search functionality for user and tenant management</li>
+                        <li>Created reusable form components with dynamic field generation, validation, and multi-select/dropdown support</li>
+                        <li>Optimized component state using React hooks to reduce re-renders and improve application performance</li>
+                        <li>Troubleshot and optimized API performance using Postman and CloudWatch Lambda logs, deploying fixes through CI/CD GitHub Actions</li>
+                        <li>Integrated AWS Lambda backend services with Amazon Cognito authentication and DynamoDB for data persistence</li>
                     </ul>
                 </div>
                 <div>
                     <h4>GSA Cloud Communications</h4>
-                    <p>As the only developer on my small team, I worked to bring modern coding practices to a more simple codebase. I communicate
-                        with clients to keep modernization efforts up-to-date, and regularly prune the sites content.  With a smal team I have to wear
-                        many hats and often find myself a pseudo-scrummaster, and main point-of-contact for the website. 
+                    <p>As the sole developer on a small team, I modernized the codebase by implementing current best practices while maintaining project continuity. Collaborated directly with clients and leadership to prioritize modernization efforts, ensuring alignment with business objectives. Participated in all Agile ceremonies and served as a key point-of-contact for technical decisions and site governance.
                     </p>
                     <ul>
-                        <li>accomplishment</li>
-                        <li>accomplishment</li>
-                        <li>accomplishment</li>
-                        <li>accomplishment</li>
+                        <li>Led comprehensive accessibility audit and remediation effort, correcting defects to achieve 508 compliance across the site for a cohesive user experience</li>
+                        <li>Architected and executed migration from Google Auth to Amazon Cognito User Pools, improving security posture and enabling enterprise SSO capabilities</li>
+                        <li>Established quality assurance processes including link checking and page content auditing to increase site reliability for leadership and users</li>
+                        <li>Collaborated with designers to build modern website components with improved filtering and search functionality within a limited technology stack</li>
                     </ul>
                 </div>
             </div>
