@@ -9,7 +9,7 @@ function App() {
         <NavBar/>
         <div className="intro-section">
             <div className="name-container">
-                <img src="/" width="130px" alt="Circle placeholder"/>
+                <img src="/assets/blue_portrait.png" width="130px" alt="Circle placeholder"/>
                 <h1>Hello I'm, Blue Jessen A Full Stack Developer</h1>
             </div>
         </div>
