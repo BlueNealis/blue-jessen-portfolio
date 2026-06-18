@@ -5,17 +5,12 @@
     background: var(--offWhite);
     color: var(--darkBlue);
     box-shadow: 2px 3px 5px rgba(76, 105, 111, 0.3);
+    text-align: center;
     transition: all 200ms ease-in-out;
 }
 
-.technologyHeader {
-    display: flex; 
-    align-items: center;
-    margin: .25rem 0rem;
-}
-
 h3 {
-    font-size: 18px;
+    font-size: 16px;
     margin: 0;
 }
 

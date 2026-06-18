@@ -72,7 +72,7 @@ h2, h3, h4{
     display: grid; 
     grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
-    place-items: center;
+    justify-content: center;
 }
 
 @media (min-width: 1280px) {
