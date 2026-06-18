@@ -1,4 +1,4 @@
-li {
+.nav_container li {
   border-radius: 8px;
   border: 1px solid transparent;
   padding: 0.6em 1.2em;
@@ -10,12 +10,12 @@ li {
   transition: border-color 0.25s;
 }
 
-li:hover {
+.nav_container li:hover {
   border-color: #646cff;
 }
 
-li:focus,
-li:focus-visible {
+.nav_container li:focus,
+.nav_container li:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } 
 
@@ -61,6 +61,6 @@ li:focus-visible {
     border: none;
 }
 
-img {
+.burger img {
     margin-right: .5rem;
 }
