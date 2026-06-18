@@ -9,7 +9,7 @@ function App() {
         <NavBar/>
         <div className="intro-section">
             <div className="name-container">
-                <img src="/assets/blue_portrait.png" width="130px" alt="Circle placeholder"/>
+                <img src="/src/assets/blue_portrait.png" width="130px" alt="Self portrait of Blue Jessen in pixelated cartoon art style.  The character has shoulder length blonde hair with red tips, and is wearing a striped shirt.  The character is smiling and waving."/>
                 <h1>Hello I'm, Blue Jessen A Full Stack Developer</h1>
             </div>
         </div>

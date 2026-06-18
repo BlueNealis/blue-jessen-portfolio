@@ -7,7 +7,7 @@
   --medium-blue: #4C7C90;
 
     --grey: #F4F4F4;
-    --darkBlue: #061b2a;
+    --darkBlue: #041c48;
     --tan: #DDDBCB;
     --offWhite: #F5F1E3;
 
@@ -37,6 +37,12 @@ body {
     background: linear-gradient(white, #e2efff);
     font-family: "Inter", sans-serif;
     padding: 2rem;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: var(--darkBlue);
 }
 
 h2, h3, h4{
@@ -203,11 +209,6 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-}
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
 }
 
 h3 {
