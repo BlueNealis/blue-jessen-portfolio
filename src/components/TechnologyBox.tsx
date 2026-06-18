@@ -10,6 +10,9 @@ const TechnologyBox = ({name, icon}: technologyProps) => {
                 <h3>
                     {name}
                 </h3>
+                <div className={styles.technologyDetails__inactive}>
+                    <p>Details about this technology</p>
+                </div>
         </div>
     )
 }

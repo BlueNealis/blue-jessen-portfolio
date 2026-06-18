@@ -20,3 +20,7 @@ h3 {
     transform: scale(1.05);
     background: white;
 }
+
+.technologyDetails__inactive {
+    display: none;
+}
