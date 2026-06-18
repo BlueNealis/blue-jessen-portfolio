@@ -1,8 +1,12 @@
 import './App.css'
 import technologies from './data/technologies';
-import TechnologyBox from './components/TechnologyBox';
+import TechnologyBox from './components/TechnologyBox/TechnologyBox';
 import NavBar from './components/NavBar/NavBar';
+import { useState } from 'react';
+
+
 function App() {
+  const [activeTechnology, setActiveTechnology] = useState<string | null>(null);
 
   return (
   <>
@@ -42,7 +46,10 @@ function App() {
                         <TechnologyBox 
                             key={technology.name}
                             name={technology.name} 
-                            icon={technology.icon} 
+                            icon={technology.icon}
+                            isActive={activeTechnology === technology.name}
+                            onClick={() => setActiveTechnology(activeTechnology === technology.name ? null : technology.name)}
+                            experience={technology.experience}
                             />
                     )
                 })}
