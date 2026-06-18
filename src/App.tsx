@@ -43,7 +43,6 @@ function App() {
                             key={technology.name}
                             name={technology.name} 
                             icon={technology.icon} 
-                            experience={technology.experience} 
                             />
                     )
                 })}
