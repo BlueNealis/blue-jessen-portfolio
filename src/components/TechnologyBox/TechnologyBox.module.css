@@ -1,10 +1,9 @@
 .technologyBox {
     padding: .25rem 1rem;
     border-radius: 2rem;
-    border: 2px solid var(--grey);
-    background: var(--offWhite);
-    color: var(--darkBlue);
-    box-shadow: 2px 3px 5px rgba(76, 105, 111, 0.3);
+    border: 2px solid var(--smoky-paprika);
+    background: var(--chocolate);
+    color: white;
     text-align: center;
     transition: all 200ms ease-in-out;
     cursor: pointer;
@@ -12,8 +11,8 @@
 
 .technologyBox:hover {
     box-shadow: 0px 2px 7px rgb(95, 74, 168, 0.2);
-    transform: scale(1.05);
-    background: white;
+    transform: scale(1.02);
+    background: var(--spicy-paprika);
 }
 
 .technologyBox.active {
@@ -24,8 +23,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border: 1px solid var(--orange-cream);
+    color: var(--grey-90);
+    background-color: white;
     transform: none;
-    box-shadow: 0px 4px 12px rgb(95, 74, 168, 0.3);
 }
 
 h3 {
@@ -45,6 +46,8 @@ h3 {
 .technologyDetails.active {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    border: 1px solid var(--orange-cream);
+    background: white;
     gap: 1rem;
     margin-top: 1rem;
 }
@@ -57,13 +60,12 @@ h3 {
     background: white;
     padding: 1rem;
     border-radius: 0.5rem;
-    border: 1px solid var(--grey);
+    border: 1px solid var(--orange-cream);
     text-align: left;
 }
 
 .tag {
     display: inline-block;
-    background: var(--orangeLight);
     padding: 0.25rem 0.75rem;
     border-radius: 1rem;
     font-size: 12px;
