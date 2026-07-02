@@ -12,7 +12,8 @@ interface TechnologyProps {
     onClick: () => void;
     experience: ExperienceItem[];
 }
-
+// Next thing to do is adjust the logic so that the other pills go under the active pill and not just adjust around it
+// then fill out data for each box
 const TechnologyBox = ({ name, icon, isActive, onClick, experience }: TechnologyProps) => {
     return(
         <div 
